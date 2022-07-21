@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/go-scrum/static/css/main.ebf474d4.css",
+    "main.js": "/go-scrum/static/js/main.f0a89594.js",
+    "index.html": "/go-scrum/index.html",
+    "main.ebf474d4.css.map": "/go-scrum/static/css/main.ebf474d4.css.map",
+    "main.f0a89594.js.map": "/go-scrum/static/js/main.f0a89594.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebf474d4.css",
+    "static/js/main.f0a89594.js"
+  ]
+}
