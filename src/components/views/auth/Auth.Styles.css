@@ -1,0 +1,109 @@
+
+
+.auth{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth > form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.auth > form > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.auth > form > div > *:not(label) {
+  padding: 8px 0;
+}
+
+.auth > form > div > div {
+    color: var(--global-primary-color);
+    font-size: 14px
+}
+
+.auth input, select {
+    border-radius: var(--global-radius);
+    border: var(--global-border);
+    text-indent: 10px;
+         
+}
+.auth input::placeholder{
+    color: var(--global-color-font-secondary)
+}
+
+
+.auth button {
+    transition: all 0.3s ease-out;
+    background-color: var(--global-primary-color);
+    border-radius: var(--global-radius);
+    color: white;
+    border: 0;
+    padding: 10px !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth button:hover {
+    transition: all 0.3s ease-out;
+    background-color: white;
+    border-radius: var(--global-radius);
+    color: var(--global-primary-color);
+    border: 1px solid var(--global-primary-color);
+    border-color: var(--global-primary-color);
+    padding: 10px !important;
+    font-size: 16px
+
+}
+
+.auth > form > div > a {
+  text-decoration: none;
+  color: #999;
+}
+.auth input.error,
+.auth select.error,
+.auth textarea.error {
+   border: 1px solid var(--global-primary-color);
+}
+
+.error-message {
+   color: var(--global-primary-color);
+   font-size: 13px;
+}
+
+.Mui-checked {
+  color: #ff452b !important;
+}
+
+.MuiSwitch-track {
+  background-color: #ff8b7c !important;
+}
+
+.MuiFormControlLabel-label {
+  font-size: 13px !important;
+  font-family: "Nunito", sans-serif !important;
+}
+@media screen and (min-width: 600px) {
+  .auth{
+    background-color: var(--global-bg-color-soft);
+  }
+  .auth > form {
+    border: 1px solid #999;
+    width: 400px;
+    border-radius: var(--global-radius);
+    
+    background-color: white; 
+  }
+}
+  
